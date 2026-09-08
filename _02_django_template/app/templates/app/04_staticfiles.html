@@ -1,0 +1,20 @@
+{% load static %}
+
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>staticfiles</title>
+  <link rel="stylesheet" href="{% static 'css/global.css' %}">
+</head>
+<body>
+  <h1>staticfiles</h1>
+
+  <img
+    src="{% static 'images/test.gif' %}"
+    alt="움짤"
+  >
+
+  <script src="{% static 'js/global.js' %}"></script>
+</body>
+</html>
